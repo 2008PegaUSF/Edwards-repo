@@ -6,7 +6,7 @@ public abstract class User {
 	protected String username, phoneNum, address;
 	
 	//creates the account number currently being worked on
-	protected int currentActNum;
+	private int currentActNum;
 	
 	protected char userType;
 	

@@ -20,7 +20,7 @@ public class App {
 		
 		
 		//Check to see if certain file exists
-		System.out.println("Type filename to see if it exists: \n");
+		System.out.println("Type filename to see if it exists:");
 		String tmpFileName = sc.nextLine() + ".txt";
 		
 		
