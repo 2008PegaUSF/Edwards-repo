@@ -8,23 +8,25 @@ public abstract class User {
 	//creates the account number currently being worked on
 	protected int currentActNum;
 	
+	protected char userType;
+	
 	protected double curActBalance;
 	
-	private void checkBalance() {
+	protected void checkBalance() {
 
 	}
 	
-	private void depositFunds() {
+	protected void depositFunds() {
 		
 	}
 	
-	private void withdrawFunds() {
+	protected void withdrawFunds() {
 		
 	}
 	
 	
 	//Loads account info using currentActNum
-	private void loadActInfo() {
+	protected void loadActInfo() {
 		
 	}
 	
